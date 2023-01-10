@@ -1,0 +1,20 @@
+
+<body>
+  <div class="container">
+      <!-- ------------------nav------------------- -->
+      <nav class="navbar bg-transparent">
+        <div class="container-fluid">
+          <a class="navbar-brand" routerLink="/"><h1>Customer Onboarding Application</h1></a>
+          <form class="d-flex" role="search">
+            <button class="btn btn-outline-success" type="submit"routerLink=" ">Home</button>
+            <button class="btn btn-outline-success" type="submit"routerLink="/user">Onbording</button>
+            <button class="btn btn-outline-success" type="submit"routerLink="/help">Help</button>
+          </form>
+        </div>
+      </nav>
+      <hr>
+      <div class="row">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </body>
